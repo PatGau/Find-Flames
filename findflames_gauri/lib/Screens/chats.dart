@@ -14,6 +14,7 @@ class chats extends StatelessWidget {
 
         //Chat1
         Container(
+          height: 75,
           child: Padding(
             padding: const EdgeInsets.all(10.0),
             child: Row(
@@ -82,6 +83,8 @@ class chats extends StatelessWidget {
             ),
           ),
         ),
+
+        //Fine diving line after each chat
         Divider(
           indent: 30,
           endIndent: 30,
@@ -89,8 +92,9 @@ class chats extends StatelessWidget {
 
         //Chat 2
         Container(
+          height: 70,
           child: Padding(
-            padding: const EdgeInsets.all(10.0),
+            padding: const EdgeInsets.all(8.0),
             child: Row(
               children: [
                 Image.asset('assets/Ellipse_122.png'),
@@ -145,34 +149,12 @@ class chats extends StatelessWidget {
           indent: 30,
           endIndent: 30,
         ),
-        // Positioned.fill(
-        //   bottom: 50,
-        //   child: Row(
-        //     children: const [
-        //       Expanded(
-        //         child: Divider(
-        //           indent: 30,
-        //           thickness: 2.5,
-        //           height: 30,
-        //           color: Color(0xFFFFF6FA),
-        //         ),
-        //       ),
-        //       Expanded(
-        //         child: Divider(
-        //           endIndent: 30,
-        //           thickness: 2.5,
-        //           height: 30,
-        //           color: Color(0xFFFFF6FA),
-        //         ),
-        //       ),
-        //     ],
-        //   ),
-        // ),
 
         //Chat 3
         Container(
+          height: 70,
           child: Padding(
-            padding: const EdgeInsets.all(10.0),
+            padding: const EdgeInsets.all(8.0),
             child: Row(
               children: [
                 Image.asset('assets/Ellipse_123.png'),
@@ -226,34 +208,15 @@ class chats extends StatelessWidget {
                       ),
                     ),
                   ],
-                )
+                ),
               ],
             ),
           ),
         ),
-//         // Positioned.fill(
-//         //   bottom: 50,
-//         //   child: Row(
-//         //     children: const [
-//         //       Expanded(
-//         //         child: Divider(
-//         //           indent: 30,
-//         //           thickness: 2.5,
-//         //           height: 30,
-//         //           color: Color(0xFFFFF6FA),
-//         //         ),
-//         //       ),
-//         //       Expanded(
-//         //         child: Divider(
-//         //           endIndent: 30,
-//         //           thickness: 2.5,
-//         //           height: 30,
-//         //           color: Color(0xFFFFF6FA),
-//         //         ),
-//         //       ),
-//         //     ],
-//         //   ),
-//         // ),
+        Divider(
+          indent: 30,
+          endIndent: 30,
+        ),
       ],
     );
   }

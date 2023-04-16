@@ -1,7 +1,9 @@
-import 'package:findflames_gauri/firstHalf_UI.dart';
-import 'package:findflames_gauri/bottom_Navigation.dart';
+import 'package:findflames_gauri/UI.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import 'Screens/bottom_Navigation.dart';
 
 void main() {
   runApp(const MyApp());

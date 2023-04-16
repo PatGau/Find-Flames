@@ -1,12 +1,11 @@
-import 'package:findflames_gauri/Search.dart';
-import 'package:findflames_gauri/chats.dart';
-import 'package:findflames_gauri/find_Flames.dart';
-import 'package:findflames_gauri/likes_names.dart';
-import 'package:findflames_gauri/secondHalf_UI.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'bottom_Navigation.dart';
-import 'data.dart';
+
+import 'Screens/Search.dart';
+import 'Screens/chats.dart';
+import 'Screens/find_Flames.dart';
+import 'Screens/likes_names.dart';
+import 'Information/data.dart';
 
 class UiTask extends StatelessWidget {
   UiTask({Key? key}) : super(key: key);

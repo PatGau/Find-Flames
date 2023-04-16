@@ -1,4 +1,4 @@
-import 'package:findflames_gauri/firstHalf_UI.dart';
+import 'package:findflames_gauri/UI.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavigationBarForHomeScreen extends StatefulWidget {

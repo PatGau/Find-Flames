@@ -3,7 +3,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'data.dart';
+import '../Information/data.dart';
 
 class likes_and_names extends StatelessWidget {
   const likes_and_names({super.key});
